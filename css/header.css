@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.header__h1 {
+    color: #34313D;
+}
+
+.header__menu {
+    width: 48px;
+    border: none;
+    background-color: transparent;
+    color: #9E9AA8;
+}
+
+.header__menu i {
+}

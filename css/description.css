@@ -1,0 +1,36 @@
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.description__img {
+    width:100vw;
+    height: 300px;
+    background-position: 2rem;
+    background-image: url("../img/person-work-EriLinks.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.description h2 {
+    margin-top: 1rem;
+    font-weight: 700;
+    color:#34313D;
+    letter-spacing: -1px;
+    font-size: 42px;
+    text-align: center;
+    line-height: 48px;
+}
+
+.description p {
+    padding: 1rem 0;
+    font-weight: 500;
+    color: #9E9AA8;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
