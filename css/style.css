@@ -1,3 +1,9 @@
+@import url(footer.css);
+@import url(resultado.css);
+@import url(short-area.css);
+@import url(description.css);
+@import url(header.css);
+
 * {
     padding: 0;
     margin: 0;
@@ -11,13 +17,12 @@ body {
     background-color: #F2F2F2;
 }
 
-.button {
-    font-weight: 700;
-    font-size: 20px;
-    color: #FFFFFF;
-    border: none;
-    background-color: #2BD0D0;
-    width: 197px;
-    height: 56px;
-    border-radius: 28px;
+@media screen and (min-width: 920px){
+    body {
+        max-width: 920px;
+        margin: 0 auto;
+    }
+    .header__menu {
+        display: none;
+    }
 }

@@ -1,6 +1,6 @@
 main {
-    margin: 0 auto;
-    background-color:#3A3054 ;
+    margin: 0rem auto;
+    background-color:#264653 ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +33,8 @@ main button{
     font-size: 18px;
     width: 280px;
     height: 48px;
-    background-color:#2BD0D0 ;
+    background-color:#2a9d8f ;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
